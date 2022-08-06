@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-06T16:10:39+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Isaac Reid</title><subtitle></subtitle><author><name>Isaac Reid</name></author><entry><title type="html">Entanglement barriers in dual-unitary quantum circuits</title><link href="http://localhost:4000/2022/06/19/dual_unitary.html" rel="alternate" type="text/html" title="Entanglement barriers in dual-unitary quantum circuits" /><published>2022-06-19T00:00:00+01:00</published><updated>2022-06-19T00:00:00+01:00</updated><id>http://localhost:4000/2022/06/19/dual_unitary</id><content type="html" xml:base="http://localhost:4000/2022/06/19/dual_unitary.html"><![CDATA[<p><em>The unwieldy title belies surprisingly simple and deep behaviour, pertaining to how quantum entanglement propagates over time in a 1D system of interacting qubits. This review is intended to capture the essence of the results first reported in <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.014301">this PRB paper</a>, but will forgo the gory mathematical details. The interested (masochistic?) reader is invited to peruse the original paper <a href="https://doi.org/10.48550/arXiv.2103.12794">here</a>.</em></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-06T18:14:55+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Isaac Reid</title><subtitle></subtitle><author><name>Isaac Reid</name></author><entry><title type="html">Entanglement barriers in dual-unitary quantum circuits</title><link href="http://localhost:4000/2022/06/19/dual_unitary.html" rel="alternate" type="text/html" title="Entanglement barriers in dual-unitary quantum circuits" /><published>2022-06-19T00:00:00+01:00</published><updated>2022-06-19T00:00:00+01:00</updated><id>http://localhost:4000/2022/06/19/dual_unitary</id><content type="html" xml:base="http://localhost:4000/2022/06/19/dual_unitary.html"><![CDATA[<p><em>The unwieldy title belies surprisingly simple and deep behaviour, pertaining to how quantum entanglement propagates over time in a 1D system of interacting qubits. This review is intended to capture the essence of the results first reported in <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.014301">this PRB paper</a>, but will forgo the gory mathematical details. The interested (masochistic?) reader is invited to peruse the original paper <a href="https://doi.org/10.48550/arXiv.2103.12794">here</a>.</em></p>
 
 <p><strong>Introduction and motivation</strong></p>
 
@@ -18,17 +18,17 @@
 
 <p>A good choice is to start with a so-called ‘matrix product state’, which is a low-entanglement state composed of a series of matrices multiplied together. For simplicity, it can be constructed from a pair of alternating matrices. It has this compact graphical representation, where you can think of the emerging ‘legs’ as associated with a particular spin.</p>
 
-<p><img src="/hello/assets/initial_state.jpeg" alt="Initial state" class="align-center" style="width:60%;" /></p>
+<p><img src="../../../assets/initial_state.jpeg" alt="Initial state" class="align-center" style="width:60%;" /></p>
 
 <p>We evolve it in time (i.e. encode its interactions) by multiplying the state by ‘time-evolution gates’. For a local, periodic Hamiltonian, the result for the new state after time $t$ looks like this<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>,</p>
 
-<p><img src="/hello/assets/evolved_state.jpeg" alt="Evolved state" /></p>
+<p><img src="../../../assets/evolved_state.jpeg" alt="Evolved state" /></p>
 
 <p>The red quantum gate encodes all the dynamics of the system. To emphasise: we take the initial state, represented by a ton of matrices multiplied together in one axis (space), and evolve it by multiplying in the other axis (time) with time-evolution operators, the number of which corresponds to the time elapsed.</p>
 
 <p>We demand two further technical but very important conditions: <em>solvability</em> of the initial state and <em>dual-unitarity</em> of the evolution matrix. Both are reasonably non-restrictive but are needed to make the problem concrete. They can be represented by these mathematical expressions:</p>
 
-<p><img src="/hello/assets/conditions.jpeg" alt="Solvability" class="align-center" style="width:60%;" /></p>
+<p><img src="../../../assets/conditions.jpeg" alt="Solvability" class="align-center" style="width:60%;" /></p>
 
 <p>Now we know the form our state adopts at different times, we can calculate the entanglement entropy<sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup> $S(t)$ using the mathematical form</p>
 
@@ -36,7 +36,7 @@
 
 <p>where $P(t)$ is the ‘super-operator’ constructed from the reduced density matrix, itself reduced to one subsystem of interest. This is mathematically technical and very jargon-heavy, but the important thing is that, using the dual-unitarity rule, the entanglement at a given time can be represented by this graphical form.</p>
 
-<p><img src="/hello/assets/full_form.jpeg" alt="Entropy expression" /></p>
+<p><img src="../../../assets/full_form.jpeg" alt="Entropy expression" /></p>
 
 <p>$t$ is the number of time steps elapsed, and $l$ and $x$ are related to the size of the subsystem we’re interested in.</p>
 
@@ -46,7 +46,7 @@
 
 <p>Following it through, you end up with this graph.</p>
 
-<p><img src="/hello/assets/graph.jpeg" alt="Entropy graph" /></p>
+<p><img src="../../../assets/graph.jpeg" alt="Entropy graph" /></p>
 
 <p>The quantum entanglement initially rises linearly, plateaus, then falls to zero. The exact behaviour of the decline phase depends on the choice of dual-unitary quantum gate; I’ve included a couple of examples described in detail in the paper.</p>
 
