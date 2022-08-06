@@ -29,7 +29,7 @@ github_username:  isaac-reid
 
 # Build settings
 #theme: minima
-theme: minimal-mistakes-jekyll
+theme: jekyll-theme-slate
 
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
