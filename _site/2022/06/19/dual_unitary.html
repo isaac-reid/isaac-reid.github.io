@@ -1,4 +1,285 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-06T16:07:49+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Isaac Reid</title><subtitle></subtitle><author><name>Isaac Reid</name></author><entry><title type="html">Entanglement barriers in dual-unitary quantum circuits</title><link href="http://localhost:4000/2022/06/19/dual_unitary.html" rel="alternate" type="text/html" title="Entanglement barriers in dual-unitary quantum circuits" /><published>2022-06-19T00:00:00+01:00</published><updated>2022-06-19T00:00:00+01:00</updated><id>http://localhost:4000/2022/06/19/dual_unitary</id><content type="html" xml:base="http://localhost:4000/2022/06/19/dual_unitary.html"><![CDATA[<p><em>The unwieldy title belies surprisingly simple and deep behaviour, pertaining to how quantum entanglement propagates over time in a 1D system of interacting qubits. This review is intended to capture the essence of the results first reported in <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.014301">this PRB paper</a>, but will forgo the gory mathematical details. The interested (masochistic?) reader is invited to peruse the original paper <a href="https://doi.org/10.48550/arXiv.2103.12794">here</a>.</em></p>
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Entanglement barriers in dual-unitary quantum circuits - Isaac Reid</title>
+<meta name="description" content="The unwieldy title belies surprisingly simple and deep behaviour, pertaining to how quantum entanglement propagates over time in a 1D system of interacting qubits. This review is intended to capture the essence of the results first reported in this PRB paper, but will forgo the gory mathematical details. The interested (masochistic?) reader is invited to peruse the original paper here.">
+
+
+  <meta name="author" content="Isaac Reid">
+  
+  <meta property="article:author" content="Isaac Reid">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Isaac Reid">
+<meta property="og:title" content="Entanglement barriers in dual-unitary quantum circuits">
+<meta property="og:url" content="http://localhost:4000/2022/06/19/dual_unitary.html">
+
+
+  <meta property="og:description" content="The unwieldy title belies surprisingly simple and deep behaviour, pertaining to how quantum entanglement propagates over time in a 1D system of interacting qubits. This review is intended to capture the essence of the results first reported in this PRB paper, but will forgo the gory mathematical details. The interested (masochistic?) reader is invited to peruse the original paper here.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2022-06-19T00:00:00+01:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/2022/06/19/dual_unitary.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Isaac Reid Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Isaac Reid
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/assets/isaac_reid_cv.pdf">CV</a>
+            </li><li class="masthead__menu-item">
+              <a href="/Blogs/">Blog</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/headshot_2.jpg" alt="Isaac Reid" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Isaac Reid</h3>
+    
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Oxford, UK</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:isaacreid05@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">isaacreid05@gmail.com</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Entanglement barriers in dual-unitary quantum circuits">
+    <meta itemprop="description" content="The unwieldy title belies surprisingly simple and deep behaviour, pertaining to how quantum entanglement propagates over time in a 1D system of interacting qubits. This review is intended to capture the essence of the results first reported in this PRB paper, but will forgo the gory mathematical details. The interested (masochistic?) reader is invited to peruse the original paper here.">
+    <meta itemprop="datePublished" content="2022-06-19T00:00:00+01:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Entanglement barriers in dual-unitary quantum circuits
+</h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><em>The unwieldy title belies surprisingly simple and deep behaviour, pertaining to how quantum entanglement propagates over time in a 1D system of interacting qubits. This review is intended to capture the essence of the results first reported in <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.014301">this PRB paper</a>, but will forgo the gory mathematical details. The interested (masochistic?) reader is invited to peruse the original paper <a href="https://doi.org/10.48550/arXiv.2103.12794">here</a>.</em></p>
 
 <p><strong>Introduction and motivation</strong></p>
 
@@ -81,4 +362,78 @@
       <p>This is because the closed loop represents a trace over an $N \times N$ identity matrix, with $N=2$ in the case of qubits. <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Isaac Reid</name></author><summary type="html"><![CDATA[The unwieldy title belies surprisingly simple and deep behaviour, pertaining to how quantum entanglement propagates over time in a 1D system of interacting qubits. This review is intended to capture the essence of the results first reported in this PRB paper, but will forgo the gory mathematical details. The interested (masochistic?) reader is invited to peruse the original paper here.]]></summary></entry></feed>
+</div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-06-19T00:00:00+01:00">June 19, 2022</time></p>
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Isaac Reid. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+     <script type="text/javascript" async
+   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML">
+ </script>
+
+ <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+ </script>
+	
+
+  </body>
+</html>

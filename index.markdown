@@ -1,0 +1,10 @@
+---
+layout: single
+author_profile: true
+---
+I'm an incoming PhD student at the [Machine Learning Group](http://mlg.eng.cam.ac.uk){:target="_blank"}{:rel="noopener noreferrer"} within the Cambridge University Engineering Department. I'll be supervised by [Dr. Adrian Weller](http://mlg.eng.cam.ac.uk/adrian/){:target="_blank"}{:rel="noopener noreferrer"}, researching scalable, data-efficient and trustworthy machine learning. I'm funded by the Trinity External Research Studentship. 
+
+I obtained my MPhys at Hertford College, Oxford, where I submitted my [dissertation](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.014301){:target="_blank"}{:rel="noopener noreferrer"} on entanglement barriers in dual-unitary quantum circuits, supervised by [Dr. Bruno Bertini](https://www.physics.ox.ac.uk/our-people/bertini){:target="_blank"}{:rel="noopener noreferrer"} and [Prof Fabian Essler](https://www.physics.ox.ac.uk/our-people/essler){:target="_blank"}{:rel="noopener noreferrer"}. I've also worked on simplicity bias in deep neural networks with [Prof Ard Louis](https://www.physics.ox.ac.uk/our-people/louis){:target="_blank"}{:rel="noopener noreferrer"} at the [Rudolf Peierls Centre for Theoretical Physics](https://www.physics.ox.ac.uk/research/subdepartment/rudolf-peierls-centre-theoretical-physics){:target="_blank"}{:rel="noopener noreferrer"}, Oxford, and Bose-Einstein condensation in active matter with [Dr. Benoît Mahault](https://www.ds.mpg.de/3763657/dr-benoit-mahault){:target="_blank"}{:rel="noopener noreferrer"} and [Prof Ramin Golestanian](https://www.ds.mpg.de/golestanian/en){:target="_blank"}{:rel="noopener noreferrer"} at the [Max Planck Institute for Dynamics and Self Organisation](https://www.ds.mpg.de/en){:target="_blank"}{:rel="noopener noreferrer"}, Göttingen. 
+
+I’m also interested in startups, deep tech and VC. I'm spending the year working at [this](https://opsydia.com){:target="_blank"}{:rel="noopener noreferrer"} early-stage company, helping develop disruptive laser processing technology inside diamonds with adaptive optics. 
+
