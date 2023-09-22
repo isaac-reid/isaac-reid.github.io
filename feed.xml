@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-22T14:13:49+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Isaac Reid</title><subtitle>I’m a second-year PhD student at the Machine Learning Group within the Cambridge University Engineering Department.  I am interested in problems at the interface of ML, statistical physics and applied mathematics.</subtitle><author><name>Riccardo Graziosi</name></author><entry><title type="html">Publications and preprints</title><link href="http://localhost:4000/publications/" rel="alternate" type="text/html" title="Publications and preprints" /><published>2023-09-21T14:21:01+01:00</published><updated>2023-09-21T14:21:01+01:00</updated><id>http://localhost:4000/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/publications/">&lt;p&gt;&lt;strong&gt;Quasi-Monte Carlo Graph Random Features&lt;/strong&gt; &lt;br /&gt;
+&lt;em&gt;NeurIPS 2023, accepted as spotlight paper&lt;/em&gt; &lt;br /&gt;
+&lt;strong&gt;Isaac Reid&lt;/strong&gt;, Krzysztof Choromanski, Adrian Weller    &lt;br /&gt;
+Proposal and theoretical analysis of a novel QMC scheme that induces correlations between random walks
+on a graph, with possible applications in bioinformatics and graph-based Transformers &lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/2305.12470&quot;&gt;Paper&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Simplex Random Features&lt;/strong&gt; &lt;br /&gt;
+&lt;em&gt;ICML 2023, accepted with oral presentation&lt;/em&gt; &lt;br /&gt;
+&lt;strong&gt;Isaac Reid&lt;/strong&gt;, Krzysztof Choromanski, Valerii Likhosherstov, Adrian Weller &lt;br /&gt;
+Derivation of a provably optimal random feature mechanism for unbiased approximation of the Gaussian
+kernel, motivated by a host of new analytical results and tested with extensive Transformer experiments   &lt;br /&gt;
+&lt;a href=&quot;https://arXiv.org/abs/2301.13856&quot;&gt;Paper&lt;/a&gt; &lt;a href=&quot;https://github.com/isaac-reid/simplex_random_features&quot;&gt;Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Entanglement Barriers in Dual-Unitary Circuits&lt;/strong&gt;     &lt;br /&gt;
+&lt;em&gt;Phys. Rev. B 104, 014301 – Published 1 July 2021&lt;/em&gt;     &lt;br /&gt;
+&lt;strong&gt;Isaac Reid&lt;/strong&gt;, Bruno Bertini   &lt;br /&gt;
+Exact characterisation of the dynamics of quantum entanglement arising after a quantum quench in a
+many-body, locally interacting system, including both the integrable and completely chaotic regimes.   &lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/2103.12794&quot;&gt;Paper&lt;/a&gt;&lt;/p&gt;</content><author><name>Riccardo Graziosi</name></author><category term="jekyll" /><category term="update" /><summary type="html">Quasi-Monte Carlo Graph Random Features NeurIPS 2023, accepted as spotlight paper Isaac Reid, Krzysztof Choromanski, Adrian Weller Proposal and theoretical analysis of a novel QMC scheme that induces correlations between random walks on a graph, with possible applications in bioinformatics and graph-based Transformers Paper</summary></entry></feed>
