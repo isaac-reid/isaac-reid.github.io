@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://isaac-reid.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://isaac-reid.github.io/" rel="alternate" type="text/html" /><updated>2023-10-10T11:57:37+01:00</updated><id>https://isaac-reid.github.io/feed.xml</id><title type="html">Isaac Reid</title><subtitle>I’m a second-year PhD student at the Machine Learning Group within the Cambridge University Engineering Department.  I am interested in problems at the interface of ML, statistical physics and applied mathematics.</subtitle><author><name>Riccardo Graziosi</name></author><entry><title type="html">Publications and preprints</title><link href="https://isaac-reid.github.io/publications/" rel="alternate" type="text/html" title="Publications and preprints" /><published>2023-09-21T14:21:01+01:00</published><updated>2023-09-21T14:21:01+01:00</updated><id>https://isaac-reid.github.io/welcome-to-jekyll</id><content type="html" xml:base="https://isaac-reid.github.io/publications/">&lt;p&gt;&lt;strong&gt;Universal Graph Random Features&lt;/strong&gt;&lt;br /&gt;
-&lt;em&gt;Preprint, under review&lt;/em&gt;        &lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-16T14:57:52+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Isaac Reid</title><subtitle>I’m a second-year PhD student at the Machine Learning Group within the Cambridge University Engineering Department.  I am interested in problems at the interface of ML, statistical physics and applied mathematics.</subtitle><author><name>Riccardo Graziosi</name></author><entry><title type="html">Publications and preprints</title><link href="http://localhost:4000/publications/" rel="alternate" type="text/html" title="Publications and preprints" /><published>2024-01-16T13:21:01+00:00</published><updated>2024-01-16T13:21:01+00:00</updated><id>http://localhost:4000/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/publications/">&lt;p&gt;&lt;del&gt;Universal&lt;/del&gt; &lt;strong&gt;General Graph Random Features&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;ICLR 2024&lt;/em&gt;        &lt;br /&gt;
 &lt;strong&gt;Isaac Reid&lt;/strong&gt;*, Krzysztof Choromanski*, Eli Berger*, Adrian Weller    &lt;br /&gt;
-You give me an arbitrary function of a weighted adjacency matrix, I give you a random feature mechanism to approximate it efficiently     &lt;br /&gt;
+You give me an arbitrary function of a weighted adjacency matrix, I give you a random feature mechanism to approximate it efficiently (name changed during review)   &lt;br /&gt;
 &lt;a href=&quot;https://arxiv.org/abs/2310.04859&quot;&gt;Paper&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Repelling Random Walks&lt;/strong&gt;    &lt;br /&gt;
-&lt;em&gt;Preprint, under review&lt;/em&gt;     &lt;br /&gt;
+&lt;em&gt;ICLR 2024&lt;/em&gt;     &lt;br /&gt;
 &lt;strong&gt;Isaac Reid&lt;/strong&gt;, Eli Berger, Krzysztof Choromanski, Adrian Weller      &lt;br /&gt;
 The QMC scheme below wasn’t so good after all; now we correlate walker &lt;em&gt;directions&lt;/em&gt; in an algorithm of broader interest     &lt;br /&gt;
 &lt;a href=&quot;https://arxiv.org/abs/2310.04854&quot;&gt;Paper&lt;/a&gt;&lt;/p&gt;
@@ -15,7 +15,7 @@ The QMC scheme below wasn’t so good after all; now we correlate walker &lt;em&
 &lt;strong&gt;Isaac Reid&lt;/strong&gt;, Krzysztof Choromanski, Adrian Weller    &lt;br /&gt;
 A QMC scheme that induces correlations between the lengths random walks
 on a graph, with possible applications in bioinformatics and graph-based Transformers &lt;br /&gt;
-&lt;a href=&quot;https://arxiv.org/abs/2305.12470&quot;&gt;Paper&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://arxiv.org/abs/2305.12470&quot;&gt;Paper&lt;/a&gt; &lt;a href=&quot;https://github.com/isaac-reid/antithetic_termination&quot;&gt;Code&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Simplex Random Features&lt;/strong&gt; &lt;br /&gt;
 &lt;em&gt;ICML 2023, accepted with oral presentation&lt;/em&gt; &lt;br /&gt;
@@ -29,4 +29,4 @@ kernel, motivated by a host of new analytical results and tested with extensive 
 &lt;strong&gt;Isaac Reid&lt;/strong&gt;, Bruno Bertini   &lt;br /&gt;
 Exact characterisation of the dynamics of quantum entanglement arising after a quantum quench in a
 many-body, locally interacting system, including both the integrable and completely chaotic regimes.   &lt;br /&gt;
-&lt;a href=&quot;https://arxiv.org/abs/2103.12794&quot;&gt;Paper&lt;/a&gt;&lt;/p&gt;</content><author><name>Riccardo Graziosi</name></author><category term="jekyll" /><category term="update" /><summary type="html">Universal Graph Random Features Preprint, under review Isaac Reid*, Krzysztof Choromanski*, Eli Berger*, Adrian Weller You give me an arbitrary function of a weighted adjacency matrix, I give you a random feature mechanism to approximate it efficiently Paper</summary></entry></feed>
+&lt;a href=&quot;https://arxiv.org/abs/2103.12794&quot;&gt;Paper&lt;/a&gt;&lt;/p&gt;</content><author><name>Riccardo Graziosi</name></author><category term="jekyll" /><category term="update" /><summary type="html">Universal General Graph Random Features ICLR 2024 Isaac Reid*, Krzysztof Choromanski*, Eli Berger*, Adrian Weller You give me an arbitrary function of a weighted adjacency matrix, I give you a random feature mechanism to approximate it efficiently (name changed during review) Paper</summary></entry></feed>
