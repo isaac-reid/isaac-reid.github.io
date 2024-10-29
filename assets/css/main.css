@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 body[a=dark] {
   filter: invert(1);
 }
@@ -29,7 +30,7 @@ html {
 
 body {
   color: black;
-  font-family: monospace;
+  font-family: "EB Garamond", serif;
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
