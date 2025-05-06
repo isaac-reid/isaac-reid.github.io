@@ -1,32 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-16T14:57:52+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Isaac Reid</title><subtitle>I’m a second-year PhD student at the Machine Learning Group within the Cambridge University Engineering Department.  I am interested in problems at the interface of ML, statistical physics and applied mathematics.</subtitle><author><name>Riccardo Graziosi</name></author><entry><title type="html">Publications and preprints</title><link href="http://localhost:4000/publications/" rel="alternate" type="text/html" title="Publications and preprints" /><published>2024-01-16T13:21:01+00:00</published><updated>2024-01-16T13:21:01+00:00</updated><id>http://localhost:4000/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/publications/">&lt;p&gt;&lt;del&gt;Universal&lt;/del&gt; &lt;strong&gt;General Graph Random Features&lt;/strong&gt;&lt;br /&gt;
-&lt;em&gt;ICLR 2024&lt;/em&gt;        &lt;br /&gt;
-&lt;strong&gt;Isaac Reid&lt;/strong&gt;*, Krzysztof Choromanski*, Eli Berger*, Adrian Weller    &lt;br /&gt;
-You give me an arbitrary function of a weighted adjacency matrix, I give you a random feature mechanism to approximate it efficiently (name changed during review)   &lt;br /&gt;
-&lt;a href=&quot;https://arxiv.org/abs/2310.04859&quot;&gt;Paper&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-06T17:33:50+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Isaac Reid</title><subtitle>I’m a third-year PhD student at the Machine Learning Group within the Cambridge University Engineering Department.  I am interested in problems at the interface of ML, statistical physics and applied mathematics.</subtitle><author><name>Riccardo Graziosi</name></author><entry><title type="html">Publications and preprints</title><link href="http://localhost:4000/publications/" rel="alternate" type="text/html" title="Publications and preprints" /><published>2025-01-23T13:21:01+00:00</published><updated>2025-01-23T13:21:01+00:00</updated><id>http://localhost:4000/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/publications/"><![CDATA[<style>
+  body {
+    background-color: #f8f5ee;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #008080;
+  }
 
-&lt;p&gt;&lt;strong&gt;Repelling Random Walks&lt;/strong&gt;    &lt;br /&gt;
-&lt;em&gt;ICLR 2024&lt;/em&gt;     &lt;br /&gt;
-&lt;strong&gt;Isaac Reid&lt;/strong&gt;, Eli Berger, Krzysztof Choromanski, Adrian Weller      &lt;br /&gt;
-The QMC scheme below wasn’t so good after all; now we correlate walker &lt;em&gt;directions&lt;/em&gt; in an algorithm of broader interest     &lt;br /&gt;
-&lt;a href=&quot;https://arxiv.org/abs/2310.04854&quot;&gt;Paper&lt;/a&gt;&lt;/p&gt;
+  a:hover {
+    text-decoration: underline;
+  }
 
-&lt;p&gt;&lt;strong&gt;Quasi-Monte Carlo Graph Random Features&lt;/strong&gt; &lt;br /&gt;
-&lt;em&gt;NeurIPS 2023, accepted as spotlight paper&lt;/em&gt; &lt;br /&gt;
-&lt;strong&gt;Isaac Reid&lt;/strong&gt;, Krzysztof Choromanski, Adrian Weller    &lt;br /&gt;
+</style>
+
+<p><strong>Learning the RoPEs: Better 2D and 3D Position Encodings with STRING</strong><br />
+<em>ICML 2025, accepted as spotlight paper</em>  <br />
+Connor Schenck*, <strong>Isaac Reid</strong>*, Mithun George Jacob*, Alex Bewley*, Joshua Ainslie*, David
+Rendleman*, Deepali Jain, Mohit Sharma, Avinava Dubey, Ayzaan Wahid, Sumeet Singh, René
+Wagner, Tianli Ding, Chuyuan Fu, Arunkumar Byravan, Jake Varley, Alexey Gritsenko, Matthias
+Minderer, Dmitry Kalashnikov, Jonathan Tompson, Vikas Sindhwani, Krzysztof Choromanski*  <br />
+<strong>S</strong>eperable <strong>Tr</strong>anslationally <strong>In</strong>variant Position Encodin<strong>g</strong>s = STRING. A more general extension of Rotary Position Encodings (RoPE) using some very lightweight group theory. Provides big gains in downstream robotics applications and, importantly, has a killer name.<br />
+<a href="https://arxiv.org/pdf/2502.02562v1">Paper</a></p>
+
+<p><strong>Linear Transformer Topological Masking with Graph Random Features</strong><br />
+<em>ICLR 2025</em><br />
+<strong>Isaac Reid</strong>, Kumar Avinava Dubey, Deepali Jain, Will Whitney, Amr Ahmed, Joshua Ainslie, Alex Bewley, Mithun Jacob, Aranyak Mehta, David Rendleman, Connor Schenck, Richard E. Turner, René Wagner, Adrian Weller, Krzysztof Choromanski<br />
+How can you efficiently incorporate information about the underlying graph structure into a linear attention transformer, where the attention matrix is never explicitly instantiated in memory? Using GRFs, of course  <br />
+<a href="https://arxiv.org/abs/2410.03462">Paper</a></p>
+
+<p><strong>Optimal Time Complexity Algorithms for Computing General Random Walk Graph Kernels on Sparse Graphs</strong><br />
+<em>AISTATS 2025</em><br />
+Krzysztof Choromanski*, <strong>Isaac Reid</strong>*, Arijit Sehanobish, Avinava Dubey<br />
+By simulating correlated random walks on an ensemble of graphs, you can estimate the graph kernel between any given pair in linear time    <br />
+<a href="https://arxiv.org/abs/2410.10368">Paper</a></p>
+
+<p><strong>Variance-Reducing Couplings for Random Features: Perspectives from Optimal Transport</strong><br />
+<em>ICLR 2025</em><br />
+<strong>Isaac Reid</strong>, Stratis Markou, Krzysztof Choromanski, Richard E. Turner, Adrian Weller<br />
+Variance reduction in Monte Carlo is really a multi-marginal optimal transport problem, and treating it as such gives us tools to sample more efficiently in Euclidean and discrete space.  <br />
+<a href="https://arxiv.org/abs/2405.16541">Paper</a></p>
+
+<p><del>Universal</del> <strong>General Graph Random Features</strong><br />
+<em>ICLR 2024</em>        <br />
+<strong>Isaac Reid</strong>*, Krzysztof Choromanski*, Eli Berger*, Adrian Weller    <br />
+You give me an arbitrary function of a weighted adjacency matrix, I give you a random feature mechanism to approximate it efficiently (name changed during review)   <br />
+<a href="https://arxiv.org/abs/2310.04859">Paper</a> <a href="https://github.com/isaac-reid/general_graph_random_features">Code</a></p>
+
+<p><strong>Repelling Random Walks</strong>    <br />
+<em>ICLR 2024</em>     <br />
+<strong>Isaac Reid</strong>, Eli Berger, Krzysztof Choromanski, Adrian Weller      <br />
+The QMC scheme below wasn’t so good after all; now we correlate walker <em>directions</em> in an algorithm of broader interest     <br />
+<a href="https://arxiv.org/abs/2310.04854">Paper</a> <a href="https://github.com/isaac-reid/repelling_random_walks">Code</a></p>
+
+<p><strong>Quasi-Monte Carlo Graph Random Features</strong> <br />
+<em>NeurIPS 2023, accepted as spotlight paper</em> <br />
+<strong>Isaac Reid</strong>, Krzysztof Choromanski, Adrian Weller    <br />
 A QMC scheme that induces correlations between the lengths random walks
-on a graph, with possible applications in bioinformatics and graph-based Transformers &lt;br /&gt;
-&lt;a href=&quot;https://arxiv.org/abs/2305.12470&quot;&gt;Paper&lt;/a&gt; &lt;a href=&quot;https://github.com/isaac-reid/antithetic_termination&quot;&gt;Code&lt;/a&gt;&lt;/p&gt;
+on a graph, with possible applications in bioinformatics and graph-based Transformers <br />
+<a href="https://arxiv.org/abs/2305.12470">Paper</a> <a href="https://github.com/isaac-reid/antithetic_termination">Code</a></p>
 
-&lt;p&gt;&lt;strong&gt;Simplex Random Features&lt;/strong&gt; &lt;br /&gt;
-&lt;em&gt;ICML 2023, accepted with oral presentation&lt;/em&gt; &lt;br /&gt;
-&lt;strong&gt;Isaac Reid&lt;/strong&gt;, Krzysztof Choromanski, Valerii Likhosherstov, Adrian Weller &lt;br /&gt;
+<p><strong>Simplex Random Features</strong> <br />
+<em>ICML 2023, accepted with oral presentation</em> <br />
+<strong>Isaac Reid</strong>, Krzysztof Choromanski, Valerii Likhosherstov, Adrian Weller <br />
 Derivation of a provably optimal random feature mechanism for unbiased approximation of the Gaussian
-kernel, motivated by a host of new analytical results and tested with extensive Transformer experiments   &lt;br /&gt;
-&lt;a href=&quot;https://arXiv.org/abs/2301.13856&quot;&gt;Paper&lt;/a&gt; &lt;a href=&quot;https://github.com/isaac-reid/simplex_random_features&quot;&gt;Code&lt;/a&gt;&lt;/p&gt;
+kernel, motivated by a host of new analytical results and tested with extensive Transformer experiments   <br />
+<a href="https://arXiv.org/abs/2301.13856">Paper</a> <a href="https://github.com/isaac-reid/simplex_random_features">Code</a></p>
 
-&lt;p&gt;&lt;strong&gt;Entanglement Barriers in Dual-Unitary Circuits&lt;/strong&gt;     &lt;br /&gt;
-&lt;em&gt;Phys. Rev. B 104, 014301 – Published 1 July 2021&lt;/em&gt;     &lt;br /&gt;
-&lt;strong&gt;Isaac Reid&lt;/strong&gt;, Bruno Bertini   &lt;br /&gt;
+<p><strong>Entanglement Barriers in Dual-Unitary Circuits</strong>     <br />
+<em>Phys. Rev. B 104, 014301 – Published 1 July 2021</em>     <br />
+<strong>Isaac Reid</strong>, Bruno Bertini   <br />
 Exact characterisation of the dynamics of quantum entanglement arising after a quantum quench in a
-many-body, locally interacting system, including both the integrable and completely chaotic regimes.   &lt;br /&gt;
-&lt;a href=&quot;https://arxiv.org/abs/2103.12794&quot;&gt;Paper&lt;/a&gt;&lt;/p&gt;</content><author><name>Riccardo Graziosi</name></author><category term="jekyll" /><category term="update" /><summary type="html">Universal General Graph Random Features ICLR 2024 Isaac Reid*, Krzysztof Choromanski*, Eli Berger*, Adrian Weller You give me an arbitrary function of a weighted adjacency matrix, I give you a random feature mechanism to approximate it efficiently (name changed during review) Paper</summary></entry></feed>
+many-body, locally interacting system, including both the integrable and completely chaotic regimes.   <br />
+<a href="https://arxiv.org/abs/2103.12794">Paper</a></p>]]></content><author><name>Riccardo Graziosi</name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[]]></summary></entry></feed>
