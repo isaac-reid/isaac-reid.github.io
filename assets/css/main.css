@@ -110,4 +110,73 @@ img {
   margin: 0 auto;
 }
 
+/* Style for the main navigation container */
+.main-navigation {
+  background-color: #f8f5ee; /* Light background for the nav bar */
+  padding: 10px 0;
+  margin-top: -15px; /* Add or change this line */
+}
+
+/* Style for the top-level unordered list */
+.main-navigation > ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Make list items horizontal */
+  justify-content: center; /* Center the menu items */
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+}
+
+/* Style for top-level list items */
+.main-navigation > ul > li {
+  margin: 0 25px; /* Spacing between menu items */
+  position: relative; /* Needed for dropdowns if you implement them */
+}
+
+/* Style for menu links */
+.main-navigation a {
+  text-decoration: none; /* Remove underline */
+  color: #333;
+  font-weight: bold;
+  padding: 8px 12px;
+  display: block; /* Make the whole link area clickable */
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.main-navigation a:hover {
+  color: #008080; /* Hover color */
+  background-color: #e9e9e9; /* Light background on hover */
+  border-radius: 4px;
+}
+
+/* Basic styling for nested menus (if you have them) */
+.main-navigation ul ul { /* Targets nested <ul> */
+  display: none; /* Hide sub-menus by default */
+  position: absolute; /* Position relative to parent li */
+  background-color: #fff;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  min-width: 160px;
+  z-index: 1000;
+  padding: 10px 0;
+  border-radius: 0px;
+}
+
+.main-navigation li:hover > ul {
+  display: block; /* Show sub-menu on hover */
+}
+
+.main-navigation ul ul li {
+  margin: 0; /* Remove horizontal margin for sub-menu items */
+}
+
+.main-navigation ul ul a {
+  padding: 8px 15px;
+  color: #555;
+}
+
+.main-navigation ul ul a:hover {
+  background-color: #f0f0f0;
+  color: #007bff;
+}
+
 /*# sourceMappingURL=main.css.map */
