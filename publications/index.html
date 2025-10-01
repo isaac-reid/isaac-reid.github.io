@@ -9,8 +9,8 @@
 <meta property="og:title" content="Publications and preprints" />
 <meta name="author" content="Riccardo Graziosi" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="I’m a third-year PhD student at the Machine Learning Group within the Cambridge University Engineering Department. I am interested in problems at the interface of ML, statistical physics and applied mathematics. I currently live in NYC, where I’m working with Google DeepMind." />
-<meta property="og:description" content="I’m a third-year PhD student at the Machine Learning Group within the Cambridge University Engineering Department. I am interested in problems at the interface of ML, statistical physics and applied mathematics. I currently live in NYC, where I’m working with Google DeepMind." />
+<meta name="description" content="I’m a final-year PhD student at the Machine Learning Group within the Cambridge University Engineering Department. I am interested in problems at the interface of ML, statistical physics and applied mathematics. I currently live in NYC, where I’m working with Google DeepMind." />
+<meta property="og:description" content="I’m a final-year PhD student at the Machine Learning Group within the Cambridge University Engineering Department. I am interested in problems at the interface of ML, statistical physics and applied mathematics. I currently live in NYC, where I’m working with Google DeepMind." />
 <link rel="canonical" href="https://isaac-reid.github.io/publications/" />
 <meta property="og:url" content="https://isaac-reid.github.io/publications/" />
 <meta property="og:site_name" content="Isaac Reid" />
@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Publications and preprints" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Riccardo Graziosi"},"dateModified":"2025-06-28T09:21:01-04:00","datePublished":"2025-06-28T09:21:01-04:00","description":"I’m a third-year PhD student at the Machine Learning Group within the Cambridge University Engineering Department. I am interested in problems at the interface of ML, statistical physics and applied mathematics. I currently live in NYC, where I’m working with Google DeepMind.","headline":"Publications and preprints","mainEntityOfPage":{"@type":"WebPage","@id":"https://isaac-reid.github.io/publications/"},"url":"https://isaac-reid.github.io/publications/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Riccardo Graziosi"},"dateModified":"2025-06-28T09:21:01-04:00","datePublished":"2025-06-28T09:21:01-04:00","description":"I’m a final-year PhD student at the Machine Learning Group within the Cambridge University Engineering Department. I am interested in problems at the interface of ML, statistical physics and applied mathematics. I currently live in NYC, where I’m working with Google DeepMind.","headline":"Publications and preprints","mainEntityOfPage":{"@type":"WebPage","@id":"https://isaac-reid.github.io/publications/"},"url":"https://isaac-reid.github.io/publications/"}</script>
 <!-- End Jekyll SEO tag -->
 <link type="application/atom+xml" rel="alternate" href="https://isaac-reid.github.io/feed.xml" title="Isaac Reid" /><link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
   <link rel="stylesheet" href="/assets/css/main.css" />
@@ -49,10 +49,29 @@
 
 </style>
 
-<p><strong>Distributional Training Data Attribution</strong><br />
+<p><strong>Gemini Robotics 1.5: Pushing the Frontier of Generalist Robots with Advanced Embodied Reasoning, Thinking, and Motion Transfer</strong> <br />
+<em>Published on GDM blog</em> <br />
+GDM robotics team (very many authors) <br />
+A new family of robotics foundation models, with improved reasoning and cross-embodiment transfer.
+<a href="https://storage.googleapis.com/deepmind-media/gemini-robotics/Gemini-Robotics-1-5-Tech-Report.pdf">Paper</a></p>
+
+<p><strong>Wavelet-Induced Rotary Encodings: RoPE Meets Graphs</strong><br />
 <em>Preprint, under review</em>  <br />
+<strong>Isaac Reid</strong>*, Arijit Sehanobish*, Cederik Höfs*, Bruno Mlodozeniec, Leonhard Vulpius, Federico Barbero, Adrian Weller, Krzysztof Choromanski, Richard E. Turner, Petar Veličković     <br />
+You can extend rotary position encoings (RoPE) to graphs, and it automatically inherits a bunch of nice properties.<br />
+<a href="https://arxiv.org/abs/2509.22259">Paper</a>  <br />
+<em>* Denotes core contributors.</em></p>
+
+<p><strong>Gaussian Random Features for Scalable Gaussian Processes</strong><br />
+<em>Structured Probabilistic Inference and Generative Modelling, NeurIPS 2025 Workshop</em>  <br />
+Matthew Zhang, Jihao Andreas Lin, Krzysztof Choromanski, Adrian Weller, Richard Turner, <strong>Isaac Reid</strong>    <br />
+GRFs permit <em>very</em> efficient Bayesian optimisation on graphs, when you implement the sparse linear algebra properly and use iterative linear solvers instead of matrix inverses.  <br />
+<a href="https://arxiv.org/abs/2509.03691">Paper</a></p>
+
+<p><strong>Distributional Training Data Attribution</strong><br />
+<em>NeurIPS 2025, accepted as spotlight paper</em>  <br />
 Bruno Mlodozeniec<sup>†</sup>, <strong>Isaac Reid</strong><sup>†</sup>, Sam Power, David Krueger, Murat Erdogdu, Richard Turner, Roger Grosse    <br />
-Randomness is an inherent part of machine learning; retraining with an identical dataset can in general return a different model. We argue that the ‘influence’ of samples can be understood by how drastically the <em>distribution</em> over final trained models changes if they are removed. We demonstrate that influence functions – a popular but poorly understood training data attribution tool – emerge organically from this new mathematical formulation. <br />
+‘Influence’ of samples can be understood by how drastically the <em>distribution</em> over final trained models changes if they are removed. Influence functions emerge organically from this new mathematical formulation. <br />
 <a href="https://arxiv.org/abs/2506.12965">Paper</a> <br />
 <em><sup>†</sup> Denotes equal contribution. Order decided by who could swim the furthest underwater.</em></p>
 
@@ -62,7 +81,7 @@ Connor Schenck*, <strong>Isaac Reid</strong>*, Mithun George Jacob*, Alex Bewley
 Rendleman*, Deepali Jain, Mohit Sharma, Avinava Dubey, Ayzaan Wahid, Sumeet Singh, René
 Wagner, Tianli Ding, Chuyuan Fu, Arunkumar Byravan, Jake Varley, Alexey Gritsenko, Matthias
 Minderer, Dmitry Kalashnikov, Jonathan Tompson, Vikas Sindhwani, Krzysztof Choromanski*  <br />
-<strong>S</strong>eperable <strong>Tr</strong>anslationally <strong>In</strong>variant Position Encodin<strong>g</strong>s = STRING. A more general extension of Rotary Position Encodings (RoPE) using some very lightweight group theory. Provides big gains in downstream robotics applications and, importantly, has a killer name.<br />
+<strong>S</strong>eperable <strong>Tr</strong>anslationally <strong>In</strong>variant Position Encodin<strong>g</strong>s = STRING. A more general extension of Rotary Position Encodings (RoPE) using some very lightweight group theory.<br />
 <a href="https://arxiv.org/pdf/2502.02562v1">Paper</a></p>
 
 <p><strong>Linear Transformer Topological Masking with Graph Random Features</strong><br />
@@ -99,14 +118,14 @@ The QMC scheme below wasn’t so good after all; now we correlate walker <em>dir
 <em>NeurIPS 2023, accepted as spotlight paper</em> <br />
 <strong>Isaac Reid</strong>, Krzysztof Choromanski, Adrian Weller    <br />
 A QMC scheme that induces correlations between the lengths random walks
-on a graph, with possible applications in bioinformatics and graph-based Transformers. <br />
+on a graph. <br />
 <a href="https://arxiv.org/abs/2305.12470">Paper</a> <a href="https://github.com/isaac-reid/antithetic_termination">Code</a></p>
 
 <p><strong>Simplex Random Features</strong> <br />
 <em>ICML 2023, accepted with oral presentation</em> <br />
 <strong>Isaac Reid</strong>, Krzysztof Choromanski, Valerii Likhosherstov, Adrian Weller <br />
-Derivation of a provably optimal random feature mechanism for unbiased approximation of the Gaussian
-kernel, motivated by a host of new analytical results and tested with extensive Transformer experiments.   <br />
+Derivation of an optimal random feature mechanism for unbiased approximation of the Gaussian
+kernel, motivated by new analytical results and tested with Transformers.   <br />
 <a href="https://arXiv.org/abs/2301.13856">Paper</a> <a href="https://github.com/isaac-reid/simplex_random_features">Code</a></p>
 
 <p><strong>Entanglement Barriers in Dual-Unitary Circuits</strong>     <br />
